@@ -1,0 +1,246 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* font-family: "Roboto",sans-serif; */
+}
+.header{
+    width: 1370px;
+     margin: 0 auto; 
+     background: #ffffff;;
+     height: 150px;
+}
+.logo{
+    width: 170px;
+    height: 150px;
+    float: left;
+    /*mix-blend-mode: color-burn;*/
+    
+}
+.logo img{
+    padding-top: 10px;
+    width: 250px;
+    height: 150px;
+    float: left;
+    padding-left: 30px; /* đẩy sang trái*/
+}
+.menu-logo{
+    width: 1200px;
+   height:  150px;
+}
+.menu-logo .search-box{
+   
+   width: 450px;
+   height:  50px;
+   overflow: hidden;
+   position: relative;
+   border-radius: 15px;
+   top: 50px;
+   left: 500px;
+}
+.menu-logo .search-box {
+    background: rgb(223, 167, 199);
+    overflow: hidden;
+    position: absolute;
+    border-radius: 15px;
+}
+.menu-logo .search-box .search-btn{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 70px;
+    height: 50px;
+    font-size: 20px;
+    
+}
+.menu-logo .search-box input{
+
+    width: 100%;
+    height: 100%;
+    background: rgb(223, 167, 199);
+    
+}
+.trang button{
+    padding: 0 20px;
+    color:  rgb(223, 167, 199);
+    font-size: 20px;
+}
+nav{
+    height: 60px;
+    background:  rgb(223, 167, 199);
+}
+nav .menu ul{
+    list-style: none;/* xóa dấu chấm tròn*/
+    
+}
+nav .menu ul li{
+    float: left;
+    line-height: 50px;
+    padding: 0 10px;
+    padding-left: 30px;
+}
+nav .menu ul li a{
+    
+    color: #fff;
+    text-decoration: none; /* xóa dấu gạch chân dưới chữ*/
+}
+nav .search{
+    float: right;
+    line-height: 40px;/* đẩy xuống dưới */
+    margin-right: 60px;/*đẩy sang phải*/
+    color: #fff;
+}
+.menu img{
+    padding-top: 10px;
+    width: 50px;
+    height: 40px;
+    float: left;
+    padding-left: 15px;
+    
+}
+
+nav .menu h6{
+    
+    color: #fff;
+    float: left;
+    line-height: 50px;
+    font-size: 15px;
+}
+
+.article{
+    float: left;
+    width: 300px;
+    height: 150px;
+}
+.aside{
+    float: left;
+    width: 400px;
+    height: 450px;
+    background-color: slategray;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+ 
+.anh{
+   
+   
+    width: 100px;
+}
+.anh a img{
+    
+    padding-right: 60px;
+    height: 500px;
+    width: 1000px;
+    position: absolute;
+    right: 0px;
+}
+
+section{
+    height: 550px;
+    padding-top: 30px;
+    padding-left: 10px;
+}
+section .article{
+    float: left;
+  width: 340px;
+  height: 500px; /* only for demonstration, should be removed */
+  background: rgb(223, 167, 199);
+  padding: 20px;
+  
+}
+section .article ul{
+    position: relative;
+    list-style-type: none;
+}
+section .article ul li a{
+    display: flex;
+    align-items: center;
+    font-family: Arial;
+    font-size: 1.15em;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+    padding: 10px 30px;
+    height: 50px;
+}
+section .article ul li a:hover{
+    background: rgba(211, 204, 204, 0.7);
+    color: #fff;
+}
+section .article ul ul{
+    position: absolute;
+    left: 250px;
+    width: 500px;
+    top: 0;
+    display: none;
+    background: rgba(155, 39, 176, .4);
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, .1);
+}
+section .article ul .dropdown{
+    position: relative;
+    
+}
+section .article ul .dropdown:hover ul{
+    display: initial;
+    height: 480px;
+    width: 900px;
+}
+section .article ul .dropdown1{
+    position: relative;
+    
+}
+section .article ul .dropdown1:hover ul{
+    display: initial;
+    height: 430px;
+    width: 900px;
+}
+section .article ul .dropdown2{
+    position: relative;
+    
+}
+section .article ul .dropdown2:hover ul{
+    display: initial;
+    height: 380px;
+    width: 900px;
+}
+section .article ul .dropdown3{
+    position: relative;
+    
+}
+section .article ul .dropdown3:hover ul{
+    display: initial;
+    height: 330px;
+    width: 900px;
+}
+section .article ul .dropdown4{
+    position: relative;
+    
+}
+section .article ul .dropdown4:hover ul{
+    display: initial;
+    height: 280px;
+    width: 900px;
+}
+section .article ul .dropdown5{
+    position: relative;
+    
+}
+section .article ul .dropdown5:hover ul{
+    display: initial;
+    height: 230px;
+    width: 900px;
+}
+footer {
+    line-height: 100px;
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: black;
+  }
+  
+
+
+
+    
+
+
