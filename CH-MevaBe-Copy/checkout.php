@@ -1,4 +1,4 @@
-<?php
+<!-- <?php
 	// the shopping cart needs sessions, to start one
 	/*
 		Array of session(
@@ -112,4 +112,4 @@
 	}
 	if(isset($conn)){ mysqli_close($conn); }
 	require_once "./template/footer.php";
-?>
+?> -->
