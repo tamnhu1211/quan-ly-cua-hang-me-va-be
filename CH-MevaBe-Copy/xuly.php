@@ -1,4 +1,4 @@
-<!-- <?php
+<?php
 // header('Content-Type: text/html; charset=utf-8');
 // Kết nối cơ sở dữ liệu
 $conn = mysqli_connect('localhost', 'root', '', 'database') or die ('Lỗi kết nối'); mysqli_set_charset($conn, "utf8");
@@ -53,4 +53,4 @@ echo '<script language="javascript">alert("Có lỗi trong quá trình xử lý"
 }
 }
 }
-?> -->
+?>
