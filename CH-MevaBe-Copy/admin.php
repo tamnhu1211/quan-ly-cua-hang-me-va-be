@@ -1,4 +1,4 @@
-<?php
+<!-- <?php
 	$title = "Administration section";
 	require_once "./template/header.php";
 ?>
@@ -159,4 +159,4 @@
 	margin-top: 70px;
     width: 1500px;
 }
-</style> -->
+</style> --> -->
