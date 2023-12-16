@@ -1,4 +1,4 @@
-<?php
+<!-- <?php
 	// the shopping cart needs sessions, to start one
 	/*
 		Array of session(
@@ -134,4 +134,4 @@
 	p{
         margin-top: 170px;
 	}
-	</style>
+	</style> -->
