@@ -61,4 +61,4 @@
 		<input type="reset" value="cancel" class="btn btn-default">
 	</form>
 	<br/>
-	<!-- <a href="admin_products.php" class="btn btn-success">Confirm</a> -->
+	<a href="admin_products.php" class="btn btn-success">Confirm</a>
