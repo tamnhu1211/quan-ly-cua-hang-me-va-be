@@ -1,4 +1,4 @@
-<!-- <?php
+<?php
 	if(isset($_GET['cartid'])){
         $cartid = $_GET['cartid']; 
         $delcart = $ct->del_product_cart($cartid);
@@ -136,4 +136,4 @@
 					</style>
        <div class="clear"></div>
     </div>
- </div> -->
+ </div>
