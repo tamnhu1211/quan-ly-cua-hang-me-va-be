@@ -1,4 +1,4 @@
-<?php
+<!-- <?php
   session_start();
   $id = $_GET['id'];
   // connecto database
@@ -70,4 +70,4 @@
       </div>
 <?php
   require "./template/footer.php";
-?>
+?> -->
