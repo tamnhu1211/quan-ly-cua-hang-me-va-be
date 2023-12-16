@@ -1,4 +1,4 @@
-<?php
+<!-- <?php
   session_start();
   $count = 0;
   // connecto database
@@ -139,4 +139,4 @@
 <?php
    if(isset($conn)) {mysqli_close($conn);}
   require_once "./template/footer.php";
-?>
+?> -->
