@@ -1,4 +1,4 @@
-<!-- <?php
+<?php
 	$id = $_GET['id'];
 
 	require_once "./functions/database_functions.php";
@@ -11,4 +11,4 @@
 		exit;
 	}
 	header("Location: admin_product2.php");
-?> -->
+?>
